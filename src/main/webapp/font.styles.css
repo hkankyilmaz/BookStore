@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "JetBold";
+    src: url("/asset/JetBrainsMono-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetBoldItalic";
+    src: url("/asset/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetExtraBold";
+    src: url("/asset/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "ExtraBoldItalic";
+    src: url("/asset/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetExtraLight";
+    src: url("/asset/JetBrainsMono-ExtraLight.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetExtraLightItalic";
+    src: url("/asset/JetBrainsMono-ExtraLightItalic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetItalic";
+    src: url("/asset/JetBrainsMono-Italic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetLight";
+    src: url("/asset/JetBrainsMono-Light.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetLightItalic";
+    src: url("/asset/JetBrainsMono-LightItalic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetMedium";
+    src: url("/asset/JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetMediumItalic";
+    src: url("/asset/JetBrainsMono-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetRegular";
+    src: url("./asset/JetBrainsMono-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetSemiBold";
+    src: url("/asset/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetSemiBoldItalic";
+    src: url("/asset/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetThin";
+    src: url("/asset/JetBrainsMono-Thin.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JetThinItalic";
+    src: url("/asset/JetBrainsMono-ThinItalic.woff2") format("woff2");
+}

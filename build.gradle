@@ -1,0 +1,39 @@
+plugins {
+  id 'java'
+  id 'war'
+}
+
+group 'edu.sabanciuniv'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+dependencies {
+  compileOnly('jakarta.servlet:jakarta.servlet-api:5.0.0')
+
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+  implementation 'mysql:mysql-connector-java:8.0.33'
+  implementation 'org.hibernate:hibernate-core:5.3.27.Final'
+  compileOnly 'org.projectlombok:lombok:1.18.26'
+  annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+
+
+}
+
+test {
+useJUnitPlatform()}
